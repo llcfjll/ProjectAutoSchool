@@ -46,7 +46,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 30);
             this.button1.TabIndex = 0;
-            this.button1.Text = "2. УЧЕНИКИ";
+            this.button1.Text = "2. УЧЕНИК";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
