@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\AutoSchool\AutoSchool\bin\Debug\AutoSchool.exe.config
+C:\Users\user\source\repos\AutoSchool\AutoSchool\bin\Debug\AutoSchool.exe
+C:\Users\user\source\repos\AutoSchool\AutoSchool\bin\Debug\AutoSchool.pdb
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.csprojAssemblyReference.cache
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.Form1.resources
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.Properties.Resources.resources
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.csproj.GenerateResource.cache
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.exe
+C:\Users\user\source\repos\AutoSchool\AutoSchool\obj\Debug\AutoSchool.pdb
