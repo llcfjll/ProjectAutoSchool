@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="1.AutoSchool.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="1.AutoSchool.Designer.cs">
+      <DependentUpon>1.AutoSchool.cs</DependentUpon>
     </Compile>
     <Compile Include="CRM.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CRM.Designer.cs">
       <DependentUpon>CRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.1.1.StudentCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.1.1.StudentCard.Designer.cs">
+      <DependentUpon>1.1.1.StudentCard.cs</DependentUpon>
     </Compile>
     <Compile Include="Form10.cs">
       <SubType>Form</SubType>
@@ -76,11 +82,12 @@
     <Compile Include="Form12.Designer.cs">
       <DependentUpon>Form12.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="2.Students.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>2.Students.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
@@ -126,11 +133,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="1.1.1.StudentCard.resx">
+      <DependentUpon>1.1.1.StudentCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRM.resx">
       <DependentUpon>CRM.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="1.AutoSchool.resx">
+      <DependentUpon>1.AutoSchool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form10.resx">
       <DependentUpon>Form10.cs</DependentUpon>
@@ -141,8 +151,8 @@
     <EmbeddedResource Include="Form12.resx">
       <DependentUpon>Form12.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="2.Students.resx">
+      <DependentUpon>2.Students.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>

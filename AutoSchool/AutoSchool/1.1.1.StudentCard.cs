@@ -17,13 +17,22 @@ namespace AutoSchool
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            CRM CRM = new CRM();
-            CRM.Show();
+
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }

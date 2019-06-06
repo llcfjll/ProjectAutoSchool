@@ -1,6 +1,6 @@
 ﻿namespace AutoSchool
 {
-    partial class Form1
+    partial class AutoSchool
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -38,6 +38,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -46,7 +47,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 30);
             this.button1.TabIndex = 0;
-            this.button1.Text = "2. УЧЕНИКИ";
+            this.button1.Text = "1. УЧЕНИКИ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -132,11 +133,21 @@
             this.button9.Text = "БЛАНКИ";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(301, 375);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(200, 30);
+            this.button10.TabIndex = 17;
+            this.button10.Text = "ЛИТЕРАТУРА";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // AutoSchool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button11);
@@ -148,8 +159,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.IsMdiContainer = true;
-            this.Name = "Form1";
-            this.Text = "driving school_1";
+            this.Name = "AutoSchool";
+            this.Text = "1. АВТОШКОЛА ГЛАВНАЯ";
             this.ResumeLayout(false);
 
         }
@@ -166,6 +177,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }
 
