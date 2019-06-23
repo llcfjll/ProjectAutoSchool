@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AutoSchool
 {
-    public partial class Form10 : Form
+    public partial class Teachers : Form
     {
-        public Form10()
+        public Teachers()
         {
             InitializeComponent();
         }

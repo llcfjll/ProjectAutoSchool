@@ -1,6 +1,6 @@
 ﻿namespace AutoSchool
 {
-    partial class Form2
+    partial class Students
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.studentcard_b = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // studentcard_b
             // 
-            this.button1.Location = new System.Drawing.Point(281, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1.1.КАРТОЧКА УЧАЩЕГОСЯ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.studentcard_b.Location = new System.Drawing.Point(281, 49);
+            this.studentcard_b.Name = "studentcard_b";
+            this.studentcard_b.Size = new System.Drawing.Size(200, 30);
+            this.studentcard_b.TabIndex = 0;
+            this.studentcard_b.Text = "1.1.КАРТОЧКА УЧАЩЕГОСЯ";
+            this.studentcard_b.UseVisualStyleBackColor = true;
+            this.studentcard_b.Click += new System.EventHandler(this.studentcard_b_lkm);
             // 
             // button2
             // 
@@ -70,7 +71,7 @@
             this.button4.Text = "ПЕЧАТНЫЕ ФОРМЫ";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // Students
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,8 +79,8 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form2";
+            this.Controls.Add(this.studentcard_b);
+            this.Name = "Students";
             this.Text = "1. УЧЕНИКИ";
             this.ResumeLayout(false);
 
@@ -87,7 +88,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button studentcard_b;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;

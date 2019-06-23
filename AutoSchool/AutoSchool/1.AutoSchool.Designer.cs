@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.students_b = new System.Windows.Forms.Button();
+            this.teachers_b = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -41,25 +41,25 @@
             this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // students_b
             // 
-            this.button1.Location = new System.Drawing.Point(301, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1. УЧЕНИКИ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.students_b.Location = new System.Drawing.Point(301, 15);
+            this.students_b.Name = "students_b";
+            this.students_b.Size = new System.Drawing.Size(200, 30);
+            this.students_b.TabIndex = 0;
+            this.students_b.Text = "1. УЧЕНИКИ";
+            this.students_b.UseVisualStyleBackColor = true;
+            this.students_b.Click += new System.EventHandler(this.students_b_lkm);
             // 
-            // button2
+            // teachers_b
             // 
-            this.button2.Location = new System.Drawing.Point(301, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 30);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "3. КАДРЫ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.teachers_b.Location = new System.Drawing.Point(301, 51);
+            this.teachers_b.Name = "teachers_b";
+            this.teachers_b.Size = new System.Drawing.Size(200, 30);
+            this.teachers_b.TabIndex = 2;
+            this.teachers_b.Text = "3. КАДРЫ";
+            this.teachers_b.UseVisualStyleBackColor = true;
+            this.teachers_b.Click += new System.EventHandler(this.teachers_b_lkm);
             // 
             // button3
             // 
@@ -156,8 +156,8 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.teachers_b);
+            this.Controls.Add(this.students_b);
             this.IsMdiContainer = true;
             this.Name = "AutoSchool";
             this.Text = "1. АВТОШКОЛА ГЛАВНАЯ";
@@ -167,8 +167,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button students_b;
+        private System.Windows.Forms.Button teachers_b;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

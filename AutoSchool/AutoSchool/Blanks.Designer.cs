@@ -1,6 +1,6 @@
 ﻿namespace AutoSchool
 {
-    partial class Form11
+    partial class Blanks
     {
         /// <summary>
         /// Required designer variable.

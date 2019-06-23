@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace AutoSchool
 {
-    public partial class Form2 : Form
+    public partial class Students : Form
     {
-        public Form2()
+        public Students()
         {
             InitializeComponent();
+        }
+
+        private void studentcard_b_lkm(object sender, EventArgs e)
+        {
+            StudentCard StudentCard = new StudentCard();
+            StudentCard.Show();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AutoSchool
 {
-    public partial class Form11 : Form
+    public partial class SMS : Form
     {
-        public Form11()
+        public SMS()
         {
             InitializeComponent();
         }

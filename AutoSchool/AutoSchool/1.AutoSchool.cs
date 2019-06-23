@@ -17,15 +17,15 @@ namespace AutoSchool
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void students_b_lkm(object sender, EventArgs e)
         {
-            CRM CRM = new CRM();
-            CRM.Show();
+            Students Students = new Students();
+            Students.Show();
         }
-
-        private void Button2_Click(object sender, EventArgs e)
+        private void teachers_b_lkm(object sender, EventArgs e)
         {
-
+            Teachers Teachers = new Teachers();
+            Teachers.Show();
         }
     }
 }
