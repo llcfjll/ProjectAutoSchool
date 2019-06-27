@@ -1,6 +1,6 @@
 ﻿namespace AutoSchool
 {
-    partial class Form3
+    partial class frames
     {
         /// <summary>
         /// Required designer variable.

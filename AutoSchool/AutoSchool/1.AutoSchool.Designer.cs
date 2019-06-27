@@ -160,7 +160,7 @@
             this.Controls.Add(this.students_b);
             this.IsMdiContainer = true;
             this.Name = "AutoSchool";
-            this.Text = "1. АВТОШКОЛА ГЛАВНАЯ";
+            this.Text = " ";
             this.ResumeLayout(false);
 
         }

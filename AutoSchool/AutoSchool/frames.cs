@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AutoSchool
 {
-    public partial class Form3 : Form
+    public partial class frames : Form
     {
-        public Form3()
+        public frames()
         {
             InitializeComponent();
         }
